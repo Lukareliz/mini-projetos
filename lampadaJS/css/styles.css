@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(121, 121, 121);
+}
+
+header, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lamp {
+    width: 15rem;
+    margin-bottom: 60px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    margin: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(35, 127, 248);
+    cursor: pointer;
+}
